@@ -42,7 +42,7 @@ const TriangleCreatureSimulator = () => {
 
   
 
-  const [isAutoRun, setIsAutoRun] = useState(false);
+  const [isAutoRun, setIsAutoRun] = useState(true);
   const [currentFrame, setCurrentFrame] = useState(0);
   const [simulationFrames, setSimulationFrames] = useState([]);
 
