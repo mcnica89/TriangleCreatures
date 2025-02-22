@@ -21,7 +21,7 @@ const TriangleCreatureSimulator = () => {
   const VLABEL = ['A', 'B', 'C']
   
 
-  const WORD_LIST = ['Ant', 'Bat', 'Bear', 'Bee', 'Beaver', 'Cat', 'Crab', 'Cow', 'Caribou', 'Dog', 'Duck', 'Deer', 'Elk', 'Fox', 'Frog', 'Goat', 'Goose', 'Hawk', 'Horse', 'Iguana', 'Jaguar', 'Jackal', 'Koala', 'Llama', 'Lynx', 'Loon', 'Mouse', 'Mole', 'Moose', 'Newt', 'Narwhale', 'Owl', 'Orca', 'Otter', 'Pig', 'Panda', 'Parrot', 'Quail', 'Rabbit', 'Rat', 'Seal', 'Shark', 'Swan', 'Skunk', 'Toad', 'Turtle', 'Tiger', 'Turkey', 'Urchin', 'Viper', 'Vulture', 'Whale', 'Wolf', 'Walrus', 'Yak', 'Zebra', 'Ant', 'Bat', 'Bear', 'Bee', 'Beaver', 'Cat', 'Crab', 'Cow'];
+  const WORD_LIST = ['Ant', 'Bat', 'Bear', 'Bee', 'Beaver', 'Cat', 'Crab', 'Cow', 'Caribou', 'Dog', 'Duck', 'Deer', 'Elk', 'Fox', 'Frog', 'Goat', 'Goose', 'Horse', 'Hawk', 'Iguana', 'Jaguar', 'Jackal', 'Koala', 'Llama', 'Lynx', 'Loon', 'Mouse', 'Mole', 'Moose', 'Newt', 'Narwhale', 'Owl', 'Orca', 'Otter', 'Pig', 'Panda', 'Parrot', 'Quail', 'Rabbit', 'Rat', 'Seal', 'Shark', 'Swan', 'Skunk', 'Toad', 'Turtle', 'Tiger', 'Turkey', 'Urchin', 'Viper', 'Vulture', 'Whale', 'Wolf', 'Walrus', 'Yak', 'Zebra', 'Ant', 'Bat', 'Bear', 'Bee', 'Beaver', 'Cat', 'Crab', 'Cow'];
 
   const [positions, setPositions] = useState([
     [0, 0],   // vertex 0
